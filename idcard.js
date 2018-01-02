@@ -1,4 +1,4 @@
-function = idCard(){
+function idCard(){
   var firstName = document.getElementById('firstName').value;
   var lastName = document.getElementById('lastName').value;
   var address = document.getElementById('address').value;
@@ -11,7 +11,7 @@ function = idCard(){
   var age = document.getElementById('age').value;
   var phoneNumber = document.getElementById('phoneNumber').value;
 
-  var numberArray = []{
+  var numberArray = [];
     age.push
     phoneNumber.push
     for (var i = 0; i < numberArray; i++) {
@@ -19,7 +19,6 @@ function = idCard(){
         document.getElementById('age').innerHTML;
       } else (numberArray[i] > 100){
         document.getElementById('phoneNumber').innerHTML;
-      }
     }
   }
 }
