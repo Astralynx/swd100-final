@@ -6,13 +6,20 @@
     <link rel="stylesheet" type="text/css" href="idcard.css">
   </head>
   <body>
-    <h1>Let's Create an ID card!</h1>
-      <input id="firstName" type="text" placeholder="First Name"><br>
-      <input id="lastName" type="text" placeholder="Last Name"><br>
-      <input id="age" type="text" placeholder="Age"><br>
-      <input id="phoneNumber" placeholder="Phone Number"><br>
-      <input id="address" type="text" placeholder="Address"><br>
-    <button onclick="idCard()"></button>
+    <h1 id="header1">Let's Create an ID card!</h1>
+      <div id="center">
+        <b>First Name:</b><br>
+          <input id="firstName" type="text" placeholder="First Name"><br>
+        <b>Last Name:</b><br>
+          <input id="lastName" type="text" placeholder="Last Name"><br>
+        <b>Age:</b><br>
+          <input id="age" type="text" placeholder="Age"><br>
+        <b>Phone Number:</b><br>
+          <input id="phoneNumber" placeholder="Phone Number"><br>
+        <b>Address:</b><br>
+          <input id="address" type="text" placeholder="Address"><br>
+      </div>
+    <button id="button" onclick="idCard()">Get Id Card!</button>
     <div id="idCard">
       <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
       <p id="postFullName"></p>
